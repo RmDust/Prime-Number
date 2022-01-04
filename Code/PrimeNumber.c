@@ -20,29 +20,63 @@ bool IsPrimeNumber(unsigned long int Prime) {
         return true;
 }
 
-int* GetPrimeNumber(size_t Starting, size_t EndingIndex) {
+int* GetPrimeNumber(size_t Index, size_t ToIndex) {
         
-        if(Starting > EndingIndex) {
+        if(Index > ToIndex) {
                 return 0;
         }
         
         
         int* List = 0;
-        List = (int* )malloc(sizeof(int) * (EndingIndex - Starting));
+        List = (int* )malloc(sizeof(int) * (ToIndex - Index));
         
         if (List == 0) {
                 return 0;
         }
         
         
-        for(size_t Index = 0; Starting <= EndingIndex; Starting += 1) {
-                if(IsPrimeNumber(Starting)) {
-                        List[Index] = Starting;
+        for(size_t N = 0; Index <= ToIndex; Index += 1) {
+                if(IsPrimeNumber(Index)) {
+                        List[N] = Index;
                         
-                        Index += 1;
+                        N += 1;
                 }
         }
         
         return List;
+}
+
+int CountPrimeNumber(size_t Index, size_t ToIndex) {
+        if(Index > ToIndex) {
+                return 0;
+        }
+        
+        
+        size_t N = 0;
+        
+        for(; Index <= ToIndex; Index += 1) {
+                if(IsPrimeNumber(Index)) {
+                        N += 1;
+                }
+        }
+        
+        return N;
+}
+
+int WherePrimeNumber(unsigned long int Prime) {
+        
+        size_t Index = 0;
+        
+        if(!IsPrimeNumber(Prime)) {
+                return -1;
+        }
+        
+        for(unsigned long int N = 1; N <= Prime; N += 1) {
+                if(IsPrimeNumber(N)) {
+                        Index += 1;
+                }
+        }
+        
+        return Index - 1;
 }
 
