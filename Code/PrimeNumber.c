@@ -46,7 +46,3 @@ int* GetPrimeNumber(size_t Starting, size_t EndingIndex) {
         return List;
 }
 
-int main(int argc, char *argv[]) {
-
-        return 0; 
-}
