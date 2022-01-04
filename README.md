@@ -19,8 +19,10 @@ Prime Numbers in C Language Teaching.
 |WherePrimeNumber(Number)        |int    |WherePrimeNumber(7)  |
 
 ```C
-//
-
+/* Files
+ *   Main.c
+ *   PrimeNumber.c
+ */
 
 #include <stdio.h>
 #include "PrimeNumber.h"
@@ -31,7 +33,7 @@ int main(void) {
         printf("%d", IsPrimeNumber(2));
         
         // Output "7".
-        printf("%d", GetPrimeNumber(2,7)[3]);
+        printf("%d", GetPrimeNumber(0,10)[3]);
 
         return 0;
 }
