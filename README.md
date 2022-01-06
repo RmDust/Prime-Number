@@ -1,5 +1,6 @@
 # Prime-Number  
-![Version 1.0.0](https://img.shields.io/badge/Version-1.0.1-lightgreen)
+![Version 1.0.1](https://img.shields.io/badge/Version-1.0.1-lightgreen)
+![Codename January 2022](https://img.shields.io/badge/Codename-January2022Recovery1-lightgreen)
 ![C program language](https://img.shields.io/badge/Language-C-lightgreen)
 ![Students are object](https://img.shields.io/badge/Object-Students-lightgreen)
 
