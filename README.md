@@ -1,6 +1,5 @@
 # Prime-Number  
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/bre97-web/Prime-Number?color=%234b8bf5&label=Last%20commit)
-![GitHub commits since latest release (by date) for a branch](https://img.shields.io/github/commits-since/bre97-web/Prime-Number/latest?color=%234b8bf5&label=Last%20commit)
 ![GitHub commits since latest release (by date) for a branch](https://img.shields.io/github/commits-since/bre97-web/Prime-Number/latest?color=%234b8bf5&label=Commits%20since%20last%20release)  
 
 ![Version 1.0.1](https://img.shields.io/badge/Version-1.0.1-lightgreen)
