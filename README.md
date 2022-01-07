@@ -27,6 +27,7 @@ Prime Numbers in C Language Teaching.
 /* Files
  *   Main.c
  *   PrimeNumber.c
+ *   PrimeNumber.h
  */
 
 #include <stdio.h>
